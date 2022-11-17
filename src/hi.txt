@@ -1,0 +1,40 @@
+{/* <li class="nav-item accordion" id="accordionExample">
+
+    <a class="nav-link collapsed accordion-item  "  >
+        
+        <span class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Components</span>
+    </a>
+    <div id="collapseTwo" class="collapse accordion-collapse collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Custom Components:</h6>
+            <a class="collapse-item accordion-body" >Buttons</a>
+            <a class="collapse-item accordion-body" >Cards</a>
+        </div>
+    </div>
+    
+</li> */}
+<div class="accordion" >
+  <div class="accordion-item ">
+    <h6 class="accordion-header" >
+      <a class="accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Components
+      </a>
+    </h6>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionSidebar" >
+    <div class="bg-white py-2 collapse-inner rounded">
+    <h6 class="collapse-header">Custom Components:</h6>
+        
+      <div class="accordion-body">
+      <Link class="accordion-body" to={"/buttons"}>
+        Buttons   </Link> 
+          </div>
+
+          <div class="accordion-body" >
+          <Link class="accordion-body" to={"/Cards"}>
+        Cards   </Link>
+          </div>
+</div>
+      
+    </div>
+  </div>
+  </div>
